@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+html {font-size: 16px;		}
+	
+/*navigation*/
+.navbar {
+	background-color: #ffffff !Important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+
+.navbar-toggler {
+    font-size: 1.8rem;
+	}
+
+.bg-secondary {
+	margin: 0;
+	padding: 0;
+	height: 8.31rem; /*133px*/
+	background-color: #ffffff !Important;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+
+.n {
+	height: 8.31rem; /*133px*/
+	line-height: 8.31rem; /*133px*/
+	/*margin-right: 1rem;*/
+	}
+
+.navs {	
+	color: #183f61 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem; /*16px*/
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 4px solid transparent;
+}
+	
+.navs.active, .navs:hover {
+	border-top: 4px solid #389d63; /*green*/
+	}
+
+.nav-link.navs:hover {
+	color: #389d63 !important; /*green*/
+	}
+
+.dropdown .dropdown-item {
+  font-size: 1rem; /*16px*/
+  color: #183f61; /*dark-blue*/
+  padding: 0px 15px;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;/* Important for vertical align on mobile phones */
+  }
+
+.dropdown-menu {
+	display: none;
+	color: #183f61;   /*dark-blue*/
+	background-color: #ffffff;
+	z-index: 1;
+	border: none;
+	outline: none;
+	margin: -2.5rem; /*-40px*/
+	border-radius: 2px;
+	box-shadow: 0 0 5px grey;
+	left: 3.13rem; /*50px*/
+}
+
+.dropdown-menu a {
+	display: block;
+	float: none;
+	color: #2f8751;
+	background-color: #ffffff;
+	padding: 4px 7px;
+	text-decoration: none;
+	line-height: 2.06rem; /*33px*/
+  }
+
+.dropdown-menu .dropdown-item:hover {
+	color: #53c287; /*green*/
+	padding-left: 25px;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu i {color: transparent;}
+
+.dropdown-menu .dropdown-item:hover i {
+	color: #53c287; /*green*/
+}
+
+.form-control {
+	border: none;
+}
+
+.btn.appointment {
+	background-color: #42b56c;
+	color: #fbfdfc; /*green*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.93rem; /*15px*/
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 4px solid #2f8751; /*dark-green*/
+	width: 14.37rem;
+}
+
+.btn.appointment:active, .btn.appointment:hover {
+	background-color: #3cb4e6; /*blue*/
+	border-bottom: 4px solid #337ab7; /*dark-blue*/
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav.show {
+	  position: relative;
+  }
+  .topnav.show ul {
+    position: absolute;
+	left: 0;
+    top: 0;
+	margin-left: -16px;
+	z-index: 999;
+	padding-left: 0;
+	padding-right: 0;
+  }
+    
+  ul.bg-secondary {
+	  display: block;
+	  height: auto;
+	  width: 10rem;
+	   }
+  
+  .n {
+	  height: 1.88rem;
+	  line-height: 1.88rem;
+	  margin-right: 0;
+	  }
+	   
+.navbar-nav .nav-link {
+	padding-left: 8px;
+}
+  
+.navs:hover {
+   background-color: #53c287; /*green*/ 
+	border: 3px solid #53c287;
+	}
+
+.navs.active {
+	border: 3px solid transparent;
+}
+
+.dropdown-menu {
+	margin-left: 5.63rem;
+	margin-top: -2.25rem;
+	width: 14.38rem;
+  }
+  
+li.nav-item {
+	 margin-bottom: 0.5rem;
+ }
+
+.dropdown-item:hover {
+	background-color: #53c287; /*green*/
+	}
+	
+.dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    }
+
+
+.dropdown-menu .dropdown-item:hover i {
+	color: #ffffff;
+}
+
+.btn.appointment {
+	width: 10rem;
+  }
+    
+} 
+
+
+
+
+
+/* section About Us*/  
+.dog{
+	background-image: url("../image/dog.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+	height: 20.63rem;
+	padding-top: 6.56rem;
+	text-transform: capitalize;
+	}
+
+.dog-services {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.5rem; /*24px*/
+}
+
+.dog-about {
+	font-family: "Montserrat", sans-serif;
+	font-size: 4.38rem; /*70px*/
+	font-weight: 700;
+	margin-top: -0,63rem; /*-10px*/
+	margin-bottom: 2.5rem; /*40px*/
+}
+
+.dog-home {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	margin-top: 1.25rem; /*20px*/
+	
+}
+
+.dog-home a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+.dog-home a:active, .dog-home a:hover {
+	color: #337ab7;
+	text-decoration: none;
+	}
+
+
+
+
+
+
+
+
+
+
+/* section Our Story  */
+
+.ourStory {
+	background-color: #ffffff; /*light-gray*/
+}
+
+.img-store {
+	background-image: url("../image/storyAbout.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 35,63rem; /*570px*/
+	margin-top: 7.5rem; /*120px*/
+	margin-bottom: 7.5rem; /*120px*/
+}
+
+.stor {
+	text-align: left;
+	margin-top: 7.5rem; /*120px*/
+}
+
+.story {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 1.13rem; /*18px*/
+	color: #36b56c;
+	font-style: italic;
+	margin-bottom: 5px;
+	}
+
+.story-head {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem; /*40px*/
+	font-weight: 700;
+	color: #292828;   
+	text-transform: capitalize;	
+	}
+
+.story-about {
+	margin-top: 2.5rem; /*40px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 1.38rem; /*22px*/
+	color: #5e5e5e; /*dark gray */
+	margin-bottom: 0px;
+	}
+
+.story-small {
+	margin-top: 1.25rem; /*20px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+    color: #5e5e5e;
+	}
+
+.num {
+	margin-top: 10px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.88rem; /*30px*/
+    font-weight: 700;
+	color: #292828;
+	margin-bottom: 0px;
+    }
+	
+.rate {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+    color: #5e5e5e;
+	text-transform: capitalize;	
+}
+
+.btnlearn {
+	margin-top: 1.25rem; /*20px*/
+	margin-bottom: 5rem; /*80px*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.13rem; /*18px*/
+	color: #ffffff;
+    background-color: #36b56c;
+    border-color: #36b56c;
+	padding: /*1rem 2.69rem; */16px 43px;
+	padding-bottom: 1rem;
+    line-height: 1.25rem; /*20px*/
+    border-radius: 0;
+	border: 0px;
+	border-bottom: 4px solid #2f8751; /*dark-green*/
+	}
+
+.btnlearn:active, .btnlearn:hover {
+    background-color: #3cb4e6; /* blue*/
+    border-bottom: 4px solid #337ab7; /*dark-blue*/
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*   section Our Team	 */
+
+section.ourTeam {
+	background-color: #f6f6f6; /* light-grey*/
+	text-align: center;
+	padding-bottom: 6.25rem; /*100px*/
+	}
+
+
+
+.meet {
+	padding-top: 6.25rem; /*100px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 1.13rem; /*18px*/
+	font-style: italic;
+	color: #36b56c; /*green*/
+	text-transform: capitalize;	
+	margin-bottom: 0;
+	
+	}
+
+.team-head {
+	margin-top: 5px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.63rem; /*42px*/
+	font-weight: 700;
+    color: #292828; /*black*/
+	text-transform: capitalize;
+    }
+
+.line {
+	margin-top: 1.25rem; /*20px*/
+	margin-bottom: 3.13rem; /*50px*/
+	background-color: #3cb4e6;
+	display: inline-block;
+	border: none;
+    height: 4px;
+    width: 3.75rem; /*60px*/
+}	
+
+.card-img-brandon {
+	background-image: url("../image/brandon.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 18.44rem; /*295px*/
+	border: 0;
+	border-radius: 0;
+	min-width: 16.88rem; /*270px*/
+	max-width: 18.13rem; /*290px*/
+	margin: 0 auto;
+	}
+	
+.card-img-pamela {
+	background-image: url("../image/pamela.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 18.44rem; /*295px*/
+	border: 0;
+	border-radius: 0;
+	min-width: 16.88rem; /*270px*/
+	max-width: 18.13rem; /*290px*/
+	margin: 0 auto;
+	}	
+	
+.card-img-bill {
+	background-image: url("../image/bill.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 18.44rem; /*295px*/
+	border: 0;
+	border-radius: 0;
+	min-width: 16.88rem; /*270px*/
+	max-width: 18.13rem; /*290px*/
+	margin: 0 auto;
+	}	
+
+.card {
+	border-radius: 0;
+	border: 2px solid #f6f6f6;
+	}
+	
+.card-body {
+	padding-top: 1.88rem; /*30px*/
+    padding-bottom: 10px;
+    text-align: left;
+	min-width: 16.88rem; /*270px*/
+	}
+
+.card-title {
+	font-family: "Montserrat", sans-serif;
+    font-size: 1.38rem; /*22px*/
+	color: #36b56c; /*green*/
+  }
+
+.card-profession {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	font-style: italic;
+    color: #b1b1b1; /*grey*/
+	}
+	
+.card-text {	
+	margin-top: 1.25rem; /*20px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+    color: #5e5e5e; /*dark grey*/
+}	
+
+.circle-blue {color: #3cb4e6; /*blue*/ }
+
+.phone-white {color: #ffffff;}
+
+.number-phone {	
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	color: #183f61; /*dark blue*/
+	font-size: 1rem; /*16px*/
+	padding-top: 0.63rem; /*10px*/
+	padding-left: 3.75rem; /*60px*/
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   section Pet Information   */
+.petInformation {
+	background-color: #ffffff;
+	margin: 5.63rem auto; /*90px*/
+	}
+
+.i-blue { 
+	color: #3cb4e6; /*blue*/ 
+	line-height: 3.75rem; /*60px*/
+	}
+	
+.i-white { color: #ffffff; }
+
+.pet-title {
+	max-width: 22.81rem; /*365px*/
+	width: 16.25rem; /*260px*/
+	}
+
+.pet-container {
+	position: relative;
+	height: 3.75rem; /*60px*/
+	}
+
+.pet-head {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.25rem; /*20px*/
+	color: #183f61;
+	text-align: left;
+	position: absolute;
+    top: 50%;
+	left: 5rem; /*80px*/
+    transform: translateY(-50%);
+    }
+
+.pet-about {
+	margin-top: 1.56rem; /*25px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+    color: #5e5e5e;
+	min-width: 16.25rem; /*260px*/
+	}
+/* --------------------------------------- */
+
+
+
+
+
+
+
+/*   section testimonials   */
+
+section.testimonials {
+	background-color: #42b56c; /*green*/
+	padding-top: 7.5rem; /*120px*/
+	padding-bottom: 9.06rem; /*145px*/
+    }
+
+.recall {
+	background-color: #42b56c; /*green*/
+	
+	}
+
+.what {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	color: #8cdab5;  /*light-green*/
+    font-style: italic;
+	text-align: center;
+	}
+
+.tests {
+	margin-top: 0.31rem; /*5px*/
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem; /*40px*/
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2.19rem; /*35px*/
+}
+
+.test-foto {
+	display: inline-block;
+	float: left;
+}
+
+.test-img {
+	height: 6.88rem; /*110px*/
+	width: 6.88rem; /*110px*/
+	border-radius: 50%;
+	border: 0;
+	text-align: center;
+}
+
+.test-name {
+	margin-top: 1.25rem; /*20px*/
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 1rem; /*16px*/
+	font-weight: 700;
+	color: #183f61;
+	text-align: center;
+}
+
+.test-worker {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	color: #8cdab5;  /*light-green*/
+	text-align: center;
+	}
+
+.iconify.quote {
+	color: #183f61;
+	font-size: 3.75rem; /*60px*/
+}
+
+.test-recall {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1.38rem; /*22px*/
+	font-style: italic;
+	color: #ffffff;
+	text-align: left;
+	margin-left: 8.75rem; /*140px*/
+	min-width: 31.25rem; /*500px*/
+	max-width: 56.25rem; /*900px*/
+	
+}
+
+  
+
+
+
+
+
+
+/* ------------------------------- */
+
+
+/*footer*/
+
+footer{
+	background-color: #183f61; /*dark-blue*/
+	height: 28.13rem; /*450px*/
+	}
+
+.position {
+	position: relative;
+	max-height: 28.13rem; /*450px*/
+	min-height: 25rem; /*400px*/
+	background-color: #183f61; /*dark-blue*/
+}
+
+.img-logo-wh {
+	display: block;
+	margin-top: 5rem; /*80px*/
+}
+
+.all {
+	position: absolute;
+	color: #b7b7b7; /*gray*/
+	text-align: left;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	bottom: 2.5rem; /*40px*/
+	left: 0.94rem; /*15px*/
+}
+
+.networks {
+	position: absolute;
+	margin-top: 1.88rem; /*30px*/
+	bottom: 2.5rem; /*40px*/
+	left: 0.94rem; /*15px*/
+}
+
+.cont {
+	font-size: 1.44rem; /*23px*/
+	font-family: "Montserrat", sans-serif;
+	color: #ffffff;
+	text-align: left;
+	margin-top: 5rem; /*80px*/
+	margin-bottom: 1.94rem; /*31px*/
+	padding-left: 1.13rem; /*18px*/
+	}
+
+i.mark {
+	color: #3cb4e6;
+	font-size: 1.63rem; /*26px*/
+    line-height: 2;
+	background-color: transparent;
+}
+
+.inf {
+	display: block;
+	position: relative;
+	transition: 270ms ease-in;
+	height: 3.75rem; /*60px*/
+	}
+	
+.adress {
+	position: absolute;
+	top: 50%;
+	left: 2.5rem; /*40px*/
+	transform: translateY(-50%);
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1rem; /*16px*/
+	text-align: left;
+	text-decoration: none;
+	color: #b7b7b7; /*gray*/
+}
+
+a > .net {
+	display: inline-block;
+	margin-top: 1.5rem; /*24px*/
+	color: #b7b7b7; /*gray*/
+	padding-left: 1.13rem; /*18px*/
+	font-size: 1.38rem; /*22px*/
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+	}
+
+
+
+
+
+
+
+
+/*написать нижней строкой - для мобильных*/
+
+/* указывать диапазон*/
+
+@media (min-width: 1200px) {html {font-size: 16px;}  }	
+	
+@media (min-width: 992px) and @media (max-width: 1200px) {html {font-size: 14px;} } 	
+	
+@media (min-width: 768px) and @media (max-width: 992px) {	
+html {font-size: 12px; }	}
+	
+@media (min-width: 576px) and (max-width: 768px) {html {font-size: 10px;} } 
+	
+@media (max-width: 576px) {html {font-size: 8px;} }		
+	
