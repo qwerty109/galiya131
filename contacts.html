@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VETCARE</title>
+  
+    
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <link href="fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+ 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+    
+	 <link rel="stylesheet" href="css/contacts.css">
+	
+</head>
+<body>
+
+<section class="header">    <!-- header -->
+<div class="container-fluid px-0"> 
+
+<nav class="navbar navbar-expand-xl navbar-light bg-dark">
+
+<div class="navbar-toggler-right">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTopnav" aria-controls="navbar-topnav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+	</button> 
+
+<a class="navbar-brand mx-3" href="indexVet.html"><img class="d-inline-block" src="image/logo.png"></a>
+	
+</div>
+
+<div class="collapse navbar-collapse topnav flex-column collapse" id="myTopnav">
+							
+	<ul class="navbar-nav d-flex bg-secondary">  
+		<li class="nav-item n">                                 <!-- home-->
+			<a class="nav-link navs active" href="indexVet.html">Home</a>
+		</li>
+		<li class="nav-item dropdown n">                         <!--aboutUs-->
+			<a class="nav-link dropdown-toggle navs" href="aboutUs.html" role="button" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+			  About Us</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="aboutUs.html#ourStory"><i class="fas fa-angle-right icon"></i>&nbsp;  Our Story</a>
+				<a class="dropdown-item" href="aboutUs.html#ourTeam"><i class="fas fa-angle-right icon"></i>&nbsp;  Our Team</a>
+				<a class="dropdown-item" href="aboutUs.html#testimonials"><i class="fas fa-angle-right icon"></i>&nbsp;  Testimonials</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown n"> <!-- services-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Services
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Action </a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Another action</a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Something else here</a>
+			</div>
+		</li>										
+									
+		<li class="nav-item dropdown n"> <!-- Gallery-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Gallery
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Action </a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Another action</a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Something else here</a>
+			</div>
+		</li>				
+							
+		<li class="nav-item n"> <!-- Contacts-->
+			<a class="nav-link navs" href="#">Contacts</a>
+		</li>
+		<li class="nav-item dropdown n"> <!-- Search-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button class="btn search" type="submit"><i class="fas fa-search"></i></button>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<form class="form-inline" action="/action_page.php">
+					<input class="form-control" type="text" placeholder="Search">
+				</form>		
+			</div>
+		</li>
+		<li class="nav-item ml-5 my-auto">	
+			<button class="btn appointment">Make an Appointment</button>
+		</li>
+	</ul>
+			
+</div> <!--close "collapse navbar-collapse"-->
+
+</nav>
+</div> <!--close container header-->
+</section>
+
+
+<section> <!-- section contacts Us -->  
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12 dog">
+			<div class="dog-services">contacts us</div>
+			<div class="dog-about">contacts</div>
+			<div class="dog-home"><a href="">home</a>&nbsp; &nbsp; <i class="fas fa-angle-right icon"></i>&nbsp; &nbsp; contacts</div>
+		</div>
+	</div>   <!-- close row -->
+</div> <!-- close container -->
+</section>
+
+<section class="form"> <!--  form -->  
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-12 col-12">
+			<h4 class="get">Get in Touch</h4>
+			<p class="get-text">You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can also use a quick contact form below or visit our office personally.</p>
+		
+			<form action="/action_page.php">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<label for="name" class="labels">First name</label>
+							<input type="text" class="form-control last" required id="firstName">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<label for="name" class="labels">Last name</label>
+							<input type="text" class="form-control last" required  id="lastName">
+						</div>
+					</div>	
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<label for="email" class="labels">E-mail</label>
+							<input type="email" class="form-control last" required  id="email">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">	
+							<label for="tel" class="labels">Phone</label>
+							<input type="tel" class="form-control last" required id="phone">
+						</div>
+					</div>	
+					<div class="row">
+						<div class="col-12">
+						<label for="text" class="labels">Message</label>	
+						<textarea name="message" class="w-100"></textarea>	
+						</div>  <!--cols="40"-->
+					</div>	
+			
+								
+					<button type="submit" class="btn btn-success send">Send</button>
+				</div>
+			</form>
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+			<p class="contacts-name">Socials</p>
+				<div>
+					<a href="#"><i class="fab fa-facebook-f nett"></i></a>
+					<a href="#"><i class="fab fa-twitter nett"></i></a>
+					<a href="#"><i class="fab fa-instagram nett"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g nett"></i></a>
+					<a href="#"><i class="fab fa-pinterest nett"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in nett"> </i></a>
+				</div>
+			<p class="contacts-name">Address</p>
+				<div class="info">
+					<i class="fas fa-map-marker-alt marker"></i>
+					<a href="#" class="adr">2130 Fulton Street, San Diego,CA 94117-1080 USA</a>
+				</div>
+			<p class="contacts-name">Phones</p>	
+				<div class="info">
+					<i class="fas fa-phone-alt marker"></i>
+					<span class="adr">
+						<a href="#" class="tel">1-800-1234-567</a>
+						<a href="#" class="tel">1-800-9876-543</a>
+					</span>
+				</div>
+			
+			<p class="contacts-name">E-mail</p>
+				<div class="info">
+					<i class="far fa-envelope marker"></i>
+					<a href="#" class="adr">mail@demolink.org</a>
+				</div>
+		
+		
+		</div>
+		
+		
+	</div>   <!-- close col with form -->
+</div>   <!-- close row -->
+</div> <!-- close container -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<footer>   <!-- footer -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-4 col-md-6 col-sm-6 col-12 position order-sm-2 order-md-2 order-lg-1">
+		<img class="img-fluid img-logo-wh" src="image/logo-white.png">
+		<div class="all">
+			2020 All Rights Reserved Terms of Use and Privacy Policy
+		</div>
+	</div>
+	
+	<div class="col-lg-4 col-md-6 col-sm-6 col-12 position order-sm-3 order-md-3 order-lg-2">
+		<div class="cont">Contact Information</div>
+		<div class="inf">
+			<i class="fas fa-map-marker-alt mark"></i>
+			<div class="adress">2130 Fulton Street, San Diego,CA 94117-1080 USA</div>
+		</div>
+		<div class="inf">
+			<i class="fas fa-phone-alt mark"></i>
+			<div class="adress">1-800-1234-567</div>
+		</div>
+		<div class="inf">
+			<i class="far fa-envelope mark"></i>
+			<div class="adress">mail@demolink.org</div>
+		</div>
+		<div class="networks">
+			<a href="#"><i class="fab fa-facebook-f net"></i></a>
+			<a href="#"><i class="fab fa-twitter net"></i></a>
+			<a href="#"><i class="fab fa-instagram net"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g net"></i></a>
+			<a href="#"><i class="fab fa-pinterest net"></i></a>
+			<a href="#"><i class="fab fa-linkedin-in net"> </i></a>
+		</div>
+	</div>
+	
+	<div class="col-lg-4 col-md-12 col-sm-12 col-12 px-0 py-0 h-100 order-sm-1 order-md-1 order-lg-3">
+		<!--Google map-->
+		<div id="map-responsive"> 
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26841.37873607034!2d-117.17033783679659!3d32.761161271747646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1dfd43f040eeb86!2sTV%20Bajzel!5e0!3m2!1sru!2sua!4v1582743097141!5m2!1sru!2sua" width="100%" height="450px" frameborder="0"
+			style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</div>
+</div> <!--close row -->
+</div>
+</footer>
+  
+
+ 
+  
+
+  
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+
+</script>
+
+<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+</body>
+
+</html>
