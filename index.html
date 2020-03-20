@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VETCARE</title>
+  
+    
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ 
+  <script src="https://kit.fontawesome.com/4f3c37a5ba.js" crossorigin="anonymous"></script>
+ 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+   
+   <link rel="stylesheet" href="css/indexVet.css">
+</head>
+<body>
+
+<section class="header">    <!-- header -->
+<div class="container-fluid px-0"> 
+
+<nav class="navbar navbar-expand-xl navbar-light bg-dark">
+
+<div class="navbar-toggler-right">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTopnav" aria-controls="navbar-topnav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+	</button> 
+
+<a class="navbar-brand mx-3" href="indexVet.html"><img class="d-inline-block" src="img/logo.png"></a>
+	
+</div>
+
+<div class="collapse navbar-collapse topnav flex-column" id="myTopnav">
+	<ul class="navbar-nav d-flex white">   
+		<li class="nav-item d">
+			<span class="fa-stack fa-lg float-left">
+				<i class="fas fa-circle fa-stack-2x gray"></i>
+				<i class="far fa-envelope fa-stack-1x blue"></i>
+			</span>
+			<div class="info text-nowrap">
+				<div>1-800-1234-567</div>
+				<div>1-800-8763-098</div>
+			</div>
+		</li>	
+		<li class="nav-item d">				
+			<span class="fa-stack fa-lg float-left">
+				<i class="fas fa-circle fa-stack-2x gray"></i>
+				<i class="fas fa-phone-alt fa-stack-1x blue"></i>
+			</span>
+			<div class="info text-nowrap">
+				<div>Mon-Fri: 9:00am-8:00pm</div>
+				<div>Sat-Sun: 9:00am-3:00pm</div>
+			</div>
+		</li>
+		<li class="nav-item d">				
+			<span class="fa-stack fa-lg float-left">
+				<i class="fas fa-circle fa-stack-2x gray"></i>
+				<i class="fas fa-map-marker-alt fa-stack-1x blue"></i>
+			</span>
+			<div class="info text-nowrap">
+				<div>2130 Fulton Street, San Diego,</div>
+				<div>CA 94117-1080 USA</div>
+			</div>
+		</li>
+		<li class="nav-item my-auto ml-auto">	
+			<button class="btn appointment">Make an Appointment</button>
+		</li>
+	</ul>					
+						
+	<ul class="navbar-nav d-flex bg-secondary">  
+		<li class="nav-item n">  <!-- home-->
+			<a class="nav-link navs active" href="indexVet.html">Home</a>
+		</li>
+		<li class="nav-item dropdown n">   <!--aboutUs-->
+			<a class="nav-link dropdown-toggle navs" href="aboutUs.html" role="button" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+			  About Us</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="aboutUs.html#ourStory"><i class="fas fa-angle-right icon"></i>&nbsp;  Our Story </a>
+				<a class="dropdown-item" href="aboutUs.html#ourTeam"><i class="fas fa-angle-right icon"></i>&nbsp;  Our Team</a>
+				<a class="dropdown-item" href="aboutUs.html#testimonials"><i class="fas fa-angle-right icon"></i>&nbsp;  Testimonials</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown n"> <!-- services-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Services
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Action </a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Another action</a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Something else here</a>
+			</div>
+		</li>										
+								
+		<li class="nav-item dropdown n"> <!-- Gallery-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Gallery
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Action </a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Another action</a>
+				<a class="dropdown-item" href="#"><i class="fas fa-angle-right icon"></i>&nbsp;  Something else here</a>
+			</div>
+		</li>				
+				
+		<li class="nav-item n"> <!-- Contacts-->
+			<a class="nav-link navs" href="contacts.html">Contacts</a>
+		</li>
+		<li class="nav-item dropdown n my-md-auto "> <!-- Search-->
+			<a class="nav-link dropdown-toggle navs" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button class="btn search" type="submit"><i class="fas fa-search"></i></button>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<form class="form-inline" action="/action_page.php">
+					<input class="form-control" type="text" placeholder="Search">
+				</form>		
+			</div>
+		</li>
+			
+	</ul>
+			
+</div> <!--close "collapse navbar-collapse"-->
+
+</nav>
+</div> <!--close container header-->
+</section>
+
+
+<section class="forms"> <!-- photo cat and form -->  
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-6 col-12 pl-0 cat">
+		</div>
+				
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+			<form class="size" action="/action_page.php">
+				<div class="exam">New Patients Receive FREE Exam on the First Visit</div>
+				<p class="advice">Need advice but don't have a veterinarian you can speak with? We've got you covered.</p>
+			
+				<div class="form-group">
+					<input type="text" class="form-control" required placeholder="Name" id="name">
+  					<input type="text" class="form-control" required placeholder="Pet Name" id="petname">
+					<input type="tel" class="form-control" required placeholder="Phone" id="phone">
+					<input type="email" class="form-control" required placeholder="E-mail" id="email">
+					<button type="submit" class="btn btn-success block">Get a Free Quote</button>
+				</div>
+			</form>
+		</div>
+	</div>   <!-- close col with form -->
+</div>   <!-- close row -->
+</div> <!-- close container -->
+</section>
+
+<section class="fourLinks" >  <!-- four picture and description -->
+<div class="container-fluid"> 
+	<div class="row px-0">
+		
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0"> <!-- 1 -->
+		<article class="hang">
+			<div class="img-post-one post"><a class="arrow" href="#"><i class="fas fa-arrow-alt-circle-right fa-3x"></i></a></div>
+			<div class="text-links">
+				<a class="links" href="">Small Animall Services</a>
+				<p>You can easily schedule an appointment using the form on our website to have your pet examined.</p>
+			</div>
+		</article>	
+		</div>
+				
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0">  <!-- 2 -->
+		<article class="hang">
+			<div class="text-links-down">
+				<a class="links" href="">Laser Rehab Therapy</a>
+				<p>Our team provides various treatments for your pets as well as quality surgery services.</p>
+			</div>
+			<div class="img-post-two post-down"><a class="arrow-down" href="#"><i class="fas fa-arrow-alt-circle-right fa-3x"></i></a></div>
+		</article>	
+		</div>
+				
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0"> <!-- 3 -->
+		<article class="hang">
+			<div class="img-post-three post"><a class="arrow" href="#"><i class="fas fa-arrow-alt-circle-right fa-3x"></i></a></div>
+			<div class="text-links marg">
+				<a class="links" href="">Emergency Veterinarian Services</a>
+				<p>Learn more about our clinic's schedule and cases, in which your pets should become our patients.</p>
+			</div>
+		</article>	
+		</div>
+				
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0"> <!-- 4 -->
+		<article class="hang">
+			<div class="text-links-down">
+				<a class="links" href="">More than 20 Years of Trust</a>
+				<p>People all over the US trust us with their pets and we are glad to make even the small pets healthier.</p>
+			</div>	
+			<div class="img-post-four post-down"><a class="arrow-down" href="#"><i class="fas fa-arrow-alt-circle-right fa-3x"></i></a></div>
+		</article>
+		</div>
+</div>
+</div>
+</section>
+
+
+<section> <!-- blue, four icons / gray, About us -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 dark-blue"> <!-- blue, four icons -->
+		<div class="row"> <!-- 1 -->
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 px-5"> 
+				<span><i class="fas fa-trophy fa-2x i-blue"></i></span>
+				<p class="title">Our Awards</p>
+				<p class="about">Since our establishment in 1990, we have been numerously awarded for our achievements in pet care and veterinary services.</p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 px-5"> 
+				<span><i class="fas fa-paw fa-2x i-blue"></i></span>
+				<p class="title">Pets We Treat</p>
+				<p class="about">We work with a wide range of pets, from dogs and cats to the most exotic ones, which are allowed in your state. We also provide on-site services!</p>
+			</div>
+		</div>	
+		<div class="row">  <!-- 2 -->
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 px-5"> 
+				<span class="iconify" data-icon="mdi-cat" data-inline="false"></span>
+				<p class="title">Pet Parlor</p>
+				<p class="about">Want your pets to look fabulous? We invite you to our pet parlor, a place where any dog or cat can look amazing and feel taken care of.</p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 px-5"> 
+				<span class="iconify" data-icon="mdi:calendar-clock" data-inline="false"></span>
+				<p class="title">Ambulance Services</p>
+				<p class="about">When your pets need urgent help, then calling our pet ambulance is the right task to do! We work 24/7 to treat and take care of your pets.</p>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 aboutUs"> <!-- gray, About us -->
+		<div class="justify-content-center">	
+			<div class="story">Our Story</div>
+			<div class="head-about-us">About Us</div>
+			<p class="big">VetCare is proud to serve the USA for everything pet related. Our veterinary clinic network and animal hospital is run by our experienced veterinarian, Practice Owner Dr. Brandon Rivera</p>
+			<p class="small">We're committed to giving your pets extraordinary care whenever they need it. Partner with one of our veterinarians today to begin proactively monitoring the health and wellness of the pets you love.</p>
+			<p class="small">VetCare stays on top of the latest advances in veterinarian technology and above all, remembers that all animals and pets need to be treated with loving care.</p>
+			<button type="submit" class="btn btn-success buttonlearn">Learn more</button>
+		</div>
+	</div>
+	
+</div>
+</div>
+</section>
+
+
+<section> <!-- testimonials -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 pl-lg-7 pl-md-5 pl-sm-3">
+	<div class="what">What People Say</div>
+	<div class="tests">Testimonials</div>
+		
+<div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+  
+    <div class="carousel-item active">   <!--  1  -->
+      <img class="foto d-block float-left" src="img/andrea.jpg" alt="First comment">   
+		
+		<div class="name">Andrea Bradley</div>
+		<div class="worker">Housewife</div>
+		<div class="recall">
+			My dog was very sick and would not eat and drink. I made numerous calls, did a lot of research, and was at the point of giving up when I contacted VetCare. Their specialists told me what it could be and told me where to go and have the test done. they helped me a lot and I appreciate it.
+		
+		<span class="iconify quote d-block float-right" data-icon="mdi:format-quote-close" data-inline="false"></span></div>
+	</div>
+    
+	<div class="carousel-item">   <!--  2  -->
+      <img class="foto d-block float-left" src="img/patric.jpg" alt="Second comment">
+		<div class="name">Patric Gonzalez</div>
+		<div class="worker">Businessman</div>
+		<div class="recall">
+			I have known Dr. Rivera for many years. He has taken wonderful care of my Springer Spaniel, Jackson, who is like my only child. Brandon has the knowledge, experience and compassion that make him truly unique and a wonderful veterinarian. In fact, we drive 2 hours just to see him, and it's completely worth the trip!
+		
+		<span class="iconify quote d-block float-right" data-icon="mdi:format-quote-close" data-inline="false"></span></div>
+	</div>
+	    
+    <div class="carousel-item"> <!--  3  -->
+      <img class="foto d-block float-left" src="img/kim.jpg" alt="Third comment">
+		<div class="name">Kimberly Lawson</div>
+		<div class="worker">Manager</div>
+		<div class="recall">
+			The team of VetCare has taken wonderful care of our greyhound, Mocha, who was in terrible pain, and we didn't know what was wrong with her. We thought we were going to have to say goodbye, when Dr. Rivera provided us with diagnostics and medications, and was very supportive.
+		
+		<span class="iconify quote  d-block float-right" data-icon="mdi:format-quote-close" data-inline="false"></span></div>
+    </div>
+	
+  </div>
+  <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+    <span><i class="fa fa-angle-left fa-2x point-left" aria-hidden="true"></i></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+    <span><i class="fa fa-angle-right fa-2x point-right" aria-hidden="true"></i></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>	
+			
+	</div> <!-- close col with carousel  -->
+	
+		
+	<div class="col-lg-6 col-md-6 col-sm-6 col-12 img-testi px-0">		
+	</div>
+	
+</div>
+</div>
+</section>
+
+<section class="artickles"> <!-- 4 block -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0"> <!-- 1  -->
+			<a href=""><div class="img-visits"></div></a>
+		</div>	
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 information px-4"> <!-- 1a  -->	
+			<div><a class="news" href="">news</a></div>
+			<a class="head-article" href="">The Importance of Regular Veterinary Visits</a>
+			<p class="text-article">You've heard it many times - your pet should see a veterinarian at least once a year for a preventive visit or an annual wellness exam. But what if you don't...</p>
+			<p class="autor">by Sandra Black | </br> Jan 12, 2017 at 5:38 pm</p>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0">   <!-- 2  -->
+			<a href=""><div class="img-surgery"></div></a>
+		</div>	
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 information px-4">   <!-- 2a  -->	
+			<div><a class="news" href="">news</a></div>
+			<a class="head-article" href="">How to Prepare Your Dog for Surgery</a>
+			<p class="text-article">Over the past few months, ticks and tickborne diseases have been all over the news. This year is supposed to be a very bad year for ticks as we had a very mild winter...</p>
+			<p class="autor">by Sandra Black | </br> Jan 12, 2017 at 5:38 pm</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 information-down px-4">	<!-- 3  -->
+			<div><a class="news" href="">news</a></div>
+			<a class="head-article" href="">Understanding Respiratory Allergies in Your Cat or Dog: Tips for Pet Owners</a>
+			<p class="text-article">The factors that affect your animal's comfort and happyness are multitude. We commonly focus on how to enrich our animals' lives by making sure they have...</p>
+			<p class="autor">by Sandra Black | </br> Jan 12, 2017 at 5:38 pm</p>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0">  <!-- 3a  -->
+			<a href=""><div class="img-allergies"></div></a>
+		</div>	
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 information-down px-4">  <!-- 4  -->	
+			<div><a class="news" href="">news</a></div>
+			<a class="head-article" href="">Your Holiday Pet-Safety Checklist</a>
+			<p class="text-article">It's time for us to be the sobering voice of reason and remind you of the dangers to our pets posed by the holiday season. As your mind drifts to holiday gift...</p>
+			<p class="autor">by Sandra Black | </br> Jan 12, 2017 at 5:38 pm</p>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-12 px-0">  <!-- 4a  -->
+			<a href=""><div class="img-holiday"></div></a>
+		</div>
+	</div>
+</div>
+</section>
+
+<footer>   <!-- footer -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-4 col-md-6 col-sm-6 col-12 position order-sm-2 order-md-2 order-lg-1">
+		<img class="img-fluid img-logo-wh" src="img/logo-white.png">
+		<div class="all">
+			2020 All Rights Reserved Terms of Use and Privacy Policy
+		</div>
+	</div>
+	
+	<div class="col-lg-4 col-md-6 col-sm-6 col-12 position order-sm-3 order-md-3 order-lg-2">
+		<div class="cont">Contact Information</div>
+		<div class="inf">
+			<i class="fas fa-map-marker-alt mark"></i>
+			<div class="adress">2130 Fulton Street, San Diego,CA 94117-1080 USA</div>
+		</div>
+		<div class="inf">
+			<i class="fas fa-phone-alt mark"></i>
+			<div class="adress">1-800-1234-567</div>
+		</div>
+		<div class="inf">
+			<i class="far fa-envelope mark"></i>
+			<div class="adress">mail@demolink.org</div>
+		</div>
+		<div class="networks">
+			<a href="#"><i class="fab fa-facebook-f net"></i></a>
+			<a href="#"><i class="fab fa-twitter net"></i></a>
+			<a href="#"><i class="fab fa-instagram net"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g net"></i></a>
+			<a href="#"><i class="fab fa-pinterest net"></i></a>
+			<a href="#"><i class="fab fa-linkedin-in net"> </i></a>
+		</div>
+	</div>
+	
+	<div class="col-lg-4 col-md-12 col-sm-12 col-12 px-0 py-0 h-100 order-sm-1 order-md-1 order-lg-3">
+		<!--Google map-->
+		<div id="map-responsive"> 
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26841.37873607034!2d-117.17033783679659!3d32.761161271747646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1dfd43f040eeb86!2sTV%20Bajzel!5e0!3m2!1sru!2sua!4v1582743097141!5m2!1sru!2sua" width="100%" height="450px" frameborder="0"
+			style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</div>
+</div> <!--close row -->
+</div>
+</footer>
+  
+
+ 
+  
+
+  
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+
+
+
+</script>
+
+<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+</body>
+
+</html>
